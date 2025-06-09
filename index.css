@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+#container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+   
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+#heading{
+    display: block;
+    color: pink;
+    margin-top: 20px;
+    text-align: center;
+
+
+
+}
+#anime_name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+#image{
+    height: 200px;
+    width: 200px;
+    border: 2px silver solid;
+    border-radius: 100px;
+object-fit: cover;  
+}
