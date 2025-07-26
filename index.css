@@ -11,7 +11,7 @@ body{
     display: flex;
     height: 400px;
     width: 400px;
-   
+   box-shadow: 0px 0px 20px red;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -25,6 +25,7 @@ body{
     color: pink;
     margin-top: 20px;
     text-align: center;
+    text-transform: uppercase;
 
 
 
@@ -32,11 +33,21 @@ body{
 #anime_name{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    font-weight: bold;
+}
+#anime_desc{
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#imgbox{
+    height: 300px;
+    width: 300px;
+border: 2px solid;
+    overflow: hidden;
+    border-radius: 10px;
 }
 #image{
-    height: 200px;
-    width: 200px;
-    border: 2px silver solid;
-    border-radius: 100px;
-object-fit: cover;  
+    height: 100%;width: 100%;
+    object-fit:cover;
+    object-position: top;
 }
