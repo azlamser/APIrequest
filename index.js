@@ -33,4 +33,10 @@ async function fetchWaifuData() {
     }
 }
 
-fetchWaifuData();
+   fetchWaifuData()
+
+let btn=document.getElementById("changebtn")
+btn.addEventListener("click",()=>{
+    console.log("clicked")
+    fetchWaifuData()
+})
